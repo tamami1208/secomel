@@ -1,7 +1,0 @@
-diff a/routes/web.php b/routes/web.php	(rejected hunks)
-@@ -16,4 +16,5 @@
- });
- 
- Route::get('/dasboard', function(){
-+	return view('dashboard/index')
- })
