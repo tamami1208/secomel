@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dasboard', function(){
+Route::get('dasboard', function(){
 	return view('dashboard/index')
 })
