@@ -19,3 +19,8 @@ Route::get('dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('halo', function () {
+    return "halo ges";
+});
+
+
