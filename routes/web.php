@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('dasboard', function(){
-	return view('dashboard/index');
+	return view('dashboard');
 });
